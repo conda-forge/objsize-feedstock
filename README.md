@@ -1,11 +1,11 @@
-About objsize
-=============
+About objsize-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/objsize-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/liran-funaro/objsize
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/objsize-feedstock/blob/main/LICENSE.txt)
 
 Summary: Traversal over Python's objects subtree and calculate the total size of the subtree in bytes (deep size).
 
