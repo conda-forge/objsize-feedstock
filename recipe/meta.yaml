@@ -1,5 +1,5 @@
 {% set name = "objsize" %}
-{% set version = "0.7.1" %}
+{% set version = "0.8.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/objsize-{{ version }}.tar.gz
-  sha256: 91e68d2a3031efb61b0e8cb7f995ddaeb65fe5ace9e737785e029f0932c2e619
+  sha256: df17998cf6ef4b24d52abee5020484491230e3f4af71a8ff0098c7455ad4d91c
 
 build:
   noarch: python
