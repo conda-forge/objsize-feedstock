@@ -27,15 +27,9 @@ requirements:
 
 tests:
   - python:
-      imports:
-        - objsize
+      imports: objsize
+      pip_check: true
       python_version: ${{ python_min }}.*
-  - requirements:
-      run:
-        - pip
-        - python ${{ python_min }}.*
-    script:
-      - pip check
 
 about:
   summary: Traversal over Python's objects subtree and calculate the total size of the subtree in bytes (deep size).
